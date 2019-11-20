@@ -1,0 +1,12 @@
+version: "3"
+services:
+  web:
+    image: zout84/askbot-docker
+    ports:
+      - "8082:80"
+    volumes:
+      - /tmp/askbot:/data/
+      - ./app:/app
+      - ./askbot:/usr/local/lib/python2.7/dist-packages/askbo
+    environment:
+      - MY_VAR=fundera
