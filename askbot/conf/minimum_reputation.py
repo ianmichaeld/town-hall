@@ -8,17 +8,17 @@ from askbot.deps import livesettings
 from django.utils.translation import ugettext_lazy as _
 
 MIN_REP = livesettings.ConfigurationGroup(
-    'MIN_REP', 
+    'MIN_REP',
     _('Karma thresholds'),
     ordering=0,
-    super_group = REP_AND_BADGES
+    super_group=REP_AND_BADGES
 )
 
 settings.register(
     livesettings.IntegerValue(
         MIN_REP,
         'MIN_REP_TO_VOTE_UP',
-        default=5,
+        default=1,
         description=_('Upvote')
     )
 )
@@ -27,7 +27,7 @@ settings.register(
     livesettings.IntegerValue(
         MIN_REP,
         'MIN_REP_TO_VOTE_DOWN',
-        default=50,
+        default=5,
         description=_('Downvote')
     )
 )
@@ -157,7 +157,7 @@ settings.register(
 )
 
 settings.register(
-            livesettings.IntegerValue(
+    livesettings.IntegerValue(
         MIN_REP,
         'MIN_REP_TO_EDIT_WIKI',
         default=75,
@@ -199,10 +199,10 @@ settings.register(
         default=25,
         description=_('Remove rel=nofollow from own homepage'),
         help_text=_(
-                    'When a search engine crawler will see a rel=nofollow '
-                    'attribute on a link - the link will not count towards '
-                    'the rank of the users personal site.'
-                   )
+            'When a search engine crawler will see a rel=nofollow '
+            'attribute on a link - the link will not count towards '
+            'the rank of the users personal site.'
+        )
     )
 )
 

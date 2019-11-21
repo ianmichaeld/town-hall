@@ -7,7 +7,7 @@
 /* Library of predifined less functions styles */
 /* ----- General HTML Styles----- */
 body {
-  background: #FFF;
+  background: #fff;
   font-size: 14px;
   line-height: 150%;
   margin: 0;
@@ -48,7 +48,8 @@ input,
 select,
 textarea {
   vertical-align: middle;
-  font-family: Trebuchet MS, "segoe ui", Helvetica, Tahoma, Verdana, MingLiu, PMingLiu, Arial, sans-serif;
+  font-family: Trebuchet MS, "segoe ui", Helvetica, Tahoma, Verdana, MingLiu,
+    PMingLiu, Arial, sans-serif;
   margin-left: 0px;
   -webkit-appearance: none;
   border-radius: 0;
@@ -133,7 +134,7 @@ pre {
   font-family: Consolas, Monaco, Liberation Mono, Lucida Console, Monospace;
   font-size: 100%;
   margin-bottom: 10px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding-left: 5px;
   padding-top: 5px;
   padding-bottom: 20px ! ie7;
@@ -146,7 +147,7 @@ blockquote {
   margin-bottom: 10px;
   margin-right: 15px;
   padding: 10px 0px 1px 10px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 html {
   overflow-y: scroll;
@@ -223,7 +224,7 @@ body.user-messages {
   padding: 0;
   text-align: center;
   background-color: #f5dd69;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .notify .notification {
   color: #424242;
@@ -291,8 +292,8 @@ body.user-messages {
 /* ----- Header, check blocks/header.html ----- */
 #header {
   margin-top: 0px;
-  background: #16160f;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  background: #ff9d04;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .content-wrapper {
   /* wrapper positioning class */
@@ -340,7 +341,7 @@ body.user-messages {
   text-align: right;
   margin-left: 20px;
   text-decoration: underline;
-  color: #d0e296;
+  color: #3f4138;
 }
 #userToolsNav a:first-child {
   margin-left: 0;
@@ -350,7 +351,7 @@ body.user-messages {
 }
 #userToolsNav .user-info,
 #userToolsNav .user-micro-info {
-  color: #b5b593;
+  color: #45578a;
 }
 #userToolsNav a img {
   vertical-align: middle;
@@ -369,7 +370,7 @@ body.user-messages {
   margin-right: 7px;
 }
 #metaNav a {
-  color: #e2e2ae;
+  color: #4b4b3f;
   padding: 0px 0px 0px 35px;
   height: 35px;
   line-height: 25px;
@@ -385,12 +386,12 @@ body.user-messages {
 }
 #metaNav a.on {
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 #metaNav a.special {
   font-size: 18px;
-  color: #B02B2C;
+  color: #b02b2c;
   font-weight: bold;
   text-decoration: none;
 }
@@ -459,7 +460,7 @@ body.user-messages {
   border-bottom: #d3d3c2 1px solid;
   border-top: #fcfcfc 1px solid;
   margin-bottom: 10px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 #homeButton {
   border-right: #afaf9e 1px solid;
@@ -512,7 +513,6 @@ body.user-messages {
   z-index: 1000;
   position: relative;
   /* the guts are absolute-positioned */
-
 }
 #searchBar input.searchInput,
 #searchBar div.input-tool-tip,
@@ -524,7 +524,6 @@ body.user-messages {
 #searchBar input.searchInput {
   z-index: 99;
   /* just below the buttons and the hint */
-
 }
 #searchBar input.searchInput {
   font-size: 22px;
@@ -620,7 +619,7 @@ input[type="submit"].searchBtn {
   color: #666;
   background-color: #eee;
   height: 41px;
-  border: #FFF 1px solid;
+  border: #fff 1px solid;
   line-height: 22px;
   text-align: center;
   margin: 1px 0 0 0;
@@ -696,7 +695,7 @@ input[type="reset"],
   border-top: #eaf2f3 1px solid;
   cursor: pointer;
   color: #4a757f;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   height: 27px;
@@ -708,7 +707,14 @@ input[type="reset"],
   -webkit-text-shadow: 0px 1px 0px #c6d9dd;
   background-color: #d1e2e5;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d1e2e5), color-stop(25%, #d1e2e5), to(#a9c2c7));
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#d1e2e5),
+    color-stop(25%, #d1e2e5),
+    to(#a9c2c7)
+  );
   background-image: -webkit-linear-gradient(#d1e2e5, #d1e2e5 25%, #a9c2c7);
   background-image: -moz-linear-gradient(top, #d1e2e5, #d1e2e5 25%, #a9c2c7);
   background-image: -ms-linear-gradient(#d1e2e5, #d1e2e5 25%, #a9c2c7);
@@ -738,7 +744,14 @@ input[type="submit"]:hover,
 .button:hover {
   background-color: #cde5e9;
   background-repeat: no-repeat;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cde5e9), color-stop(25%, #cde5e9), to(#94b3ba));
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#cde5e9),
+    color-stop(25%, #cde5e9),
+    to(#94b3ba)
+  );
   background-image: -webkit-linear-gradient(#cde5e9, #cde5e9 25%, #94b3ba);
   background-image: -moz-linear-gradient(top, #cde5e9, #cde5e9 25%, #94b3ba);
   background-image: -ms-linear-gradient(#cde5e9, #cde5e9 25%, #94b3ba);
@@ -805,7 +818,6 @@ form.ajax-file-upload img.spinner {
   text-transform: uppercase;
   width: 200px;
   /* to match width of sidebar */
-
 }
 /* 
     Put the secondary navigation together:
@@ -897,12 +909,11 @@ body.anon.ask-page .search-drop-menu {
   /* widgets for question template */
 
   /* notify by email box */
-
 }
 .box p {
   margin-bottom: 4px;
   color: #707070;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-size: 14px;
 }
 .box p.info-box-follow-up-links {
@@ -919,7 +930,7 @@ body.anon.ask-page .search-drop-menu {
   color: #656565;
   padding-right: 10px;
   margin-bottom: 10px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   width: 190px;
 }
 .box h3 {
@@ -927,7 +938,7 @@ body.anon.ask-page .search-drop-menu {
   font-size: 18px;
   text-align: left;
   font-weight: normal;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   padding-left: 0px;
 }
 .box .contributorback {
@@ -942,7 +953,7 @@ body.anon.ask-page .search-drop-menu {
   vertical-align: bottom;
   display: inline;
   text-align: left;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .box #displayTagFilterControl label,
 .box #emailTagFilterControl label {
@@ -1177,7 +1188,7 @@ body.anon.ask-page .search-drop-menu {
   font-size: 16px;
 }
 .rss:hover {
-  color: #F4A731 !important;
+  color: #f4a731 !important;
 }
 /* ----- Headline, containing number of questions and tags selected, check main_page/headline.html ----- */
 #questionCount {
@@ -1187,14 +1198,14 @@ body.anon.ask-page .search-drop-menu {
   float: left;
   margin-bottom: 6px;
   padding-top: 6px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 #listSearchTags {
   float: left;
   margin-top: 3px;
   color: #707070;
   font-size: 16px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 ul#searchTags {
   margin-left: 10px;
@@ -1208,7 +1219,7 @@ ul#searchTags {
   margin: 5px 0 10px 0;
   padding: 0px;
   float: left;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .search-tips a {
   text-decoration: underline;
@@ -1225,13 +1236,12 @@ ul#searchTags {
   position: relative;
   filter: inherit;
   padding: 10px 0 3px 0;
-  border-bottom: 1px solid #DDDBCE;
+  border-bottom: 1px solid #dddbce;
   margin-bottom: 1px;
   overflow: hidden;
   width: 733px;
   float: left;
   /*background: url(../images/summary-background.png) repeat-x;*/
-
 }
 .short-summary h2 {
   font-size: 20px;
@@ -1240,7 +1250,7 @@ ul#searchTags {
   padding-left: 0;
   margin-bottom: 7px;
   display: block;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .short-summary a {
   color: #464646;
@@ -1265,12 +1275,12 @@ ul#searchTags {
 .short-summary .counts {
   float: right;
   margin: 4px 0 0 5px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .short-summary .counts .item-count {
   padding: 0px 5px 0px 5px;
   font-size: 25px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .short-summary .counts .votes div,
 .short-summary .counts .views div,
@@ -1375,17 +1385,17 @@ ul#searchTags {
   color: #7ea9b3;
 }
 .paginator .prev {
-  margin-right: .5em;
+  margin-right: 0.5em;
 }
 .paginator .next {
-  margin-left: .5em;
+  margin-left: 0.5em;
 }
 .paginator .page a,
 .paginator .page a:visited,
 .paginator .curr {
-  padding: .25em;
+  padding: 0.25em;
   background-color: #fff;
-  margin: 0em .25em;
+  margin: 0em 0.25em;
   color: #ff;
 }
 .paginator .curr {
@@ -1401,13 +1411,13 @@ ul#searchTags {
 .paginator .curr a:hover,
 .paginator .prev a:hover,
 .paginator .next a:hover {
-  color: #8C8C8C;
-  background-color: #E1E1E1;
+  color: #8c8c8c;
+  background-color: #e1e1e1;
   text-decoration: none;
 }
 .paginator .text {
   color: #777;
-  padding: .3em;
+  padding: 0.3em;
 }
 .paginator .paginator-container-left {
   padding: 5px 0 10px 0;
@@ -1502,7 +1512,7 @@ ul#related-tags li {
 }
 .tag-right {
   background: #f3f6f6;
-  border: #fff 1px solid ;
+  border: #fff 1px solid;
   border-top: #fff 2px solid;
   outline: #cfdbdb 1px solid;
   /* .box-shadow(0px,1px,0px,#88a8a8);*/
@@ -1537,7 +1547,7 @@ ul#related-tags li {
   text-decoration: none;
 }
 .tags a:hover {
-  color: #1A1A1A;
+  color: #1a1a1a;
 }
 .users-page th,
 .tags-page th,
@@ -1646,7 +1656,7 @@ ul#related-tags li {
 /* ----- Ask and Edit Question Form template----- */
 .section-title {
   color: #7ea9b3;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-weight: bold;
   font-size: 24px;
 }
@@ -1936,7 +1946,7 @@ ul#related-tags li {
   color: #525252;
   margin: 0 0 12px 0;
   padding: 5px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   min-height: 20px;
   overflow: auto;
   font-size: 13px;
@@ -1951,7 +1961,7 @@ ul#related-tags li {
   margin-bottom: 0;
 }
 .wmd-preview pre {
-  background-color: #E7F1F8;
+  background-color: #e7f1f8;
 }
 .wmd-preview blockquote {
   background-color: #eee;
@@ -2014,8 +2024,8 @@ ul#related-tags li {
   margin-bottom: 5px;
 }
 .edit-content-html {
-  border-top: 1px dotted #D8D2A9;
-  border-bottom: 1px dotted #D8D2A9;
+  border-top: 1px dotted #d8d2a9;
+  border-bottom: 1px dotted #d8d2a9;
   margin: 5px 0 5px 0;
 }
 .edit-question-page,
@@ -2060,7 +2070,7 @@ ul#related-tags li {
 /* ----- Question template ----- */
 .question-page h1 {
   padding-top: 0px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .question-page h1 a {
   color: #464646;
@@ -2078,7 +2088,7 @@ ul#related-tags li {
   background-position: center left;
 }
 .question-page p.rss a {
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   vertical-align: top;
 }
 .question-page .post {
@@ -2105,7 +2115,7 @@ ul#related-tags li {
   margin-bottom: 10px;
 }
 .question-page .answer .post-content {
-  border-bottom: 1px solid #D4D4D4;
+  border-bottom: 1px solid #d4d4d4;
 }
 .question-page .post-body {
   overflow: auto;
@@ -2239,13 +2249,21 @@ ul#related-tags li {
   left: auto;
 }
 .question-page .post-controls span.dropdown-toggle:hover .dropdown-menu li,
-.question-page .post-controls span.dropdown-toggle:hover .dropdown-menu li:hover {
+.question-page
+  .post-controls
+  span.dropdown-toggle:hover
+  .dropdown-menu
+  li:hover {
   display: block !important;
   margin: 0;
   padding: 0;
   width: 100% !important;
 }
-.question-page .post-controls span.dropdown-toggle:hover .dropdown-menu li:hover {
+.question-page
+  .post-controls
+  span.dropdown-toggle:hover
+  .dropdown-menu
+  li:hover {
   background-color: #f5f0c9;
 }
 .question-page .post-controls .sep {
@@ -2292,7 +2310,6 @@ ul#related-tags li {
   float: right;
   clear: left;
   /*background: url(../images/link.png) no-repeat center left;*/
-
 }
 .question-page .post-controls .answer-convert input,
 .question-page .answer-controls .answer-convert input {
@@ -2329,7 +2346,7 @@ ul#related-tags li {
 }
 .question-page #questionCount {
   float: left;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   line-height: 15px;
 }
 .question-page #fmanswer_button {
@@ -2349,7 +2366,7 @@ ul#related-tags li {
   color: #7ea9b3;
   font-weight: bold;
   font-size: 23px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   float: left;
   padding-left: 0;
   width: 200px;
@@ -2422,7 +2439,6 @@ ul#related-tags li {
 .question-page .comments .transient-comment {
   margin-bottom: 3px;
   /* match paragraph style */
-
 }
 .question-page .comments input {
   margin-left: 10px;
@@ -2491,7 +2507,7 @@ ul#related-tags li {
   height: 14px;
 }
 .question-page .comments span.delete-icon:hover {
-  border: #BC564B 2px solid;
+  border: #bc564b 2px solid;
   border-radius: 10px;
   -ms-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -2524,7 +2540,7 @@ ul#related-tags li {
 .question-page .comments .comment-body .convert-comment input {
   background: none;
   padding: 0px;
-  color: #1B79BD;
+  color: #1b79bd;
   border: none;
   height: 13px;
   width: auto;
@@ -2619,30 +2635,30 @@ ul#related-tags li {
 }
 .question-page .accepted-answer {
   background-color: #f7fecc;
-  border-bottom-color: #9BD59B;
+  border-bottom-color: #9bd59b;
 }
 .question-page .answer .post-update-info a {
   color: #444444;
 }
 .question-page .answered {
-  background: #CCC;
+  background: #ccc;
   color: #999;
 }
 .question-page .answered-accepted {
-  background: #DCDCDC;
+  background: #dcdcdc;
   color: #763333;
 }
 .question-page .answered-accepted strong {
-  color: #E1E818;
+  color: #e1e818;
 }
 .question-page .answered-by-owner {
-  background: #F1F1FF;
+  background: #f1f1ff;
 }
 .question-page .answered-by-owner .comments .button {
-  background-color: #E6ECFF;
+  background-color: #e6ecff;
 }
 .question-page .answered-by-owner .comments {
-  background-color: #E6ECFF;
+  background-color: #e6ecff;
 }
 .question-page .answer-img-accept {
   background: url(../images/vote-accepted.png);
@@ -2659,7 +2675,7 @@ ul#related-tags li {
   margin-top: 10px;
 }
 .question-page #fmanswer h2 {
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   color: #7ea9b3;
   font-size: 24px;
 }
@@ -2718,7 +2734,7 @@ ul#related-tags li {
   background: url(../images/vote-arrow-down-on-new.png) no-repeat;
 }
 .vote-number {
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   padding: 2px 0 5px 0;
   font-size: 25px;
   font-weight: bold;
@@ -2968,20 +2984,20 @@ a.medal {
   color: #333;
   text-decoration: none;
   background: url(../images/medala.gif) no-repeat;
-  border-left: 1px solid #EEE;
-  border-top: 1px solid #EEE;
-  border-bottom: 1px solid #CCC;
-  border-right: 1px solid #CCC;
+  border-left: 1px solid #eee;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   padding: 4px 12px 4px 6px;
 }
 a:hover.medal {
   color: #333;
   text-decoration: none;
   background: url(../images/medala_on.gif) no-repeat;
-  border-left: 1px solid #E7E296;
-  border-top: 1px solid #E7E296;
-  border-bottom: 1px solid #D1CA3D;
-  border-right: 1px solid #D1CA3D;
+  border-left: 1px solid #e7e296;
+  border-top: 1px solid #e7e296;
+  border-bottom: 1px solid #d1ca3d;
+  border-right: 1px solid #d1ca3d;
 }
 #award-list .user {
   float: left;
@@ -3007,7 +3023,7 @@ a:hover.medal {
 }
 .user-profile-page h2 {
   padding: 10px 0px 10px 0px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 .user-profile-page .up-votes,
 .user-profile-page .down-votes {
@@ -3043,7 +3059,7 @@ a:hover.medal {
   vertical-align: top;
 }
 .user-about {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   height: 200px;
   line-height: 20px;
   overflow: auto;
@@ -3077,19 +3093,19 @@ a:hover.medal {
   display: inline;
   color: #fff;
   font-weight: bold;
-  color: #A05736;
+  color: #a05736;
 }
 .follow-toggle .unfollow:hover div.unfollow-green {
   display: none;
 }
 .count {
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-size: 200%;
   font-weight: 700;
   color: #777777;
 }
 .scoreNumber {
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-size: 35px;
   font-weight: 800;
   color: #777;
@@ -3110,7 +3126,7 @@ a:hover.medal {
   padding: 3px;
 }
 .answer-votes {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   color: #555555;
   float: left;
   font-family: Arial;
@@ -3200,12 +3216,12 @@ a:hover.medal {
   color: #525252;
 }
 .revision h3 {
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   font-size: 21px;
   padding-left: 0px;
 }
 .revision .header {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding: 5px;
   cursor: pointer;
 }
@@ -3250,12 +3266,12 @@ a:hover.medal {
 }
 del,
 del .post-tag {
-  color: #C34719;
+  color: #c34719;
 }
 ins .post-tag,
 ins p,
 ins {
-  background-color: #E6F0A2;
+  background-color: #e6f0a2;
 }
 body.question-page ins,
 body.main-page ins {
@@ -3314,21 +3330,21 @@ body.main-page ins {
   clear: both;
   border-top: 1px solid #000;
   padding: 16px 0 0 0;
-  background: #16160f;
+  background: #ff9d04;
   font-size: 16px;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
 }
 #ground p {
   margin-bottom: 0;
 }
 .footer-links {
-  color: #EEE;
+  color: #eee;
   text-align: left;
   width: 450px;
   float: left;
 }
 .footer-links a {
-  color: #e7e8a8;
+  color: #515241;
 }
 .powered-link {
   width: 450px;
@@ -3336,7 +3352,7 @@ body.main-page ins {
   text-align: left;
 }
 .powered-link a {
-  color: #8ebcc7;
+  color: #8e9da1;
 }
 .copyright {
   color: #616161;
@@ -3345,7 +3361,7 @@ body.main-page ins {
   text-align: right;
 }
 .copyright a {
-  color: #8ebcc7;
+  color: #65767a;
 }
 .copyright img.license-logo {
   margin: 6px 0px 20px 10px;
@@ -3368,7 +3384,7 @@ p.form-item {
   margin: 0px;
 }
 .deleted {
-  background: #F4E7E7 none repeat scroll 0 0;
+  background: #f4e7e7 none repeat scroll 0 0;
 }
 /* openid styles */
 .form-row {
@@ -3504,7 +3520,7 @@ label.retag-error {
 }
 .question-title-link a {
   font-weight: bold;
-  color: #0077CC;
+  color: #0077cc;
 }
 .answer-title-link a {
   color: #333;
@@ -3523,22 +3539,22 @@ label.retag-error {
 }
 .gold,
 .badge1 {
-  color: #FFCC00;
+  color: #ffcc00;
 }
 .silver,
 .badge2 {
-  color: #CCCCCC;
+  color: #cccccc;
 }
 .bronze,
 .badge3 {
-  color: #CC9933;
+  color: #cc9933;
 }
 .score {
   font-weight: 800;
   color: #333;
 }
 a.comment {
-  background: #EEE;
+  background: #eee;
   color: #993300;
   padding: 5px;
 }
@@ -3566,7 +3582,7 @@ button::-moz-focus-inner {
   cursor: pointer;
   /*letter-spacing:1px;*/
 
-  background-color: #D4D0C8;
+  background-color: #d4d0c8;
   height: 30px;
   border: 1px solid #777777;
   /*	width:100px; */
@@ -3605,8 +3621,8 @@ button::-moz-focus-inner {
   font-family: sans-serif;
   font-size: 120%;
   font-weight: Bold;
-  color: #FFFFFF;
-  background-color: #AE0000;
+  color: #ffffff;
+  background-color: #ae0000;
 }
 .big {
   font-size: 14px;
@@ -3628,7 +3644,7 @@ button::-moz-focus-inner {
   border-top: 1px dashed #aaaaaa;
 }
 .highlight {
-  background-color: #FFF8C6;
+  background-color: #fff8c6;
 }
 .nomargin {
   margin: 0;
@@ -4028,7 +4044,7 @@ li.L9 {
 }
 .question-page .post-update-info a.primary-group-name,
 a.primary-group-name {
-  color: #990E08;
+  color: #990e08;
   font-weight: bold;
 }
 .post-update-info .user-info {
@@ -4054,7 +4070,6 @@ a.primary-group-name {
 img.group-logo {
   height: 60px;
   /* important to align with the line spacing */
-
 }
 #groups-list {
   margin-left: 0px;
@@ -4139,7 +4154,7 @@ textarea.tipped-input {
   font-weight: bold;
 }
 .category-selector li.selected.tree:after {
-  color: #C09853;
+  color: #c09853;
 }
 .category-selector th {
   color: #707070;
@@ -4227,8 +4242,8 @@ textarea.tipped-input {
 }
 .tag-subscriptions .action {
   cursor: pointer;
-  color: #4A757F;
-  font-family: 'Open Sans Condensed', Arial, sans-serif;
+  color: #4a757f;
+  font-family: "Open Sans Condensed", Arial, sans-serif;
   text-decoration: none;
 }
 .tag-subscriptions ul.tags li {
@@ -4339,9 +4354,9 @@ td.setting-input textarea {
   border: 1px solid WindowFrame;
   background-color: #fff;
   overflow: hidden;
-  -webkit-box-shadow: 0px  1px 1px #A7A7A7;
-  -moz-box-shadow: 0px  1px 1px #BFBFBF;
-  box-shadow: 0px  1px 1px #BFBFBF;
+  -webkit-box-shadow: 0px 1px 1px #a7a7a7;
+  -moz-box-shadow: 0px 1px 1px #bfbfbf;
+  box-shadow: 0px 1px 1px #bfbfbf;
 }
 .acResults ul {
   width: 100%;
@@ -4361,7 +4376,7 @@ td.setting-input textarea {
   overflow: hidden;
 }
 .acLoading {
-  background: url('../images/indicator.gif') right center no-repeat;
+  background: url("../images/indicator.gif") right center no-repeat;
 }
 .acSelect {
   background-color: Highlight;
@@ -4534,7 +4549,7 @@ td.setting-input textarea {
   #metaNav a#navTags,
   #metaNav a#navGroups {
     background: none;
-    color: #d0e296;
+    color: #666959;
     font-size: 16px;
     text-decoration: underline;
     margin-left: 20px;
